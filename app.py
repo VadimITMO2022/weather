@@ -4,7 +4,7 @@ from callbacks import register_callbacks
 import dash_bootstrap_components as dbc
 
 app = Dash(external_stylesheets=[dbc.themes.DARKLY])
-app.title = "Погодный дашборд Hello"
+app.title = "Погодный дашборд"
 server = app.server
 
 app.layout = create_layout()

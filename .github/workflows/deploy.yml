@@ -23,7 +23,7 @@ jobs:
             git config --global --add safe.directory ${{ secrets.PROJECT_DIR }} &&
             cd ${{ secrets.PROJECT_DIR }} &&
             git pull origin main &&
-            sudo systemctl restart app-shops 
+            sudo systemctl restart app-weather 
           '
             
           
